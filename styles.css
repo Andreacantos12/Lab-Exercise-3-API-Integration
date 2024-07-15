@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(135deg, #c4d2db, #c4d2db);
+    color: #415045;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(122, 182, 130, 0.3);
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #89bd8b;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #54b157;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #81ca84;
+}
+
+
+#weather, #forecast, #hourly-forecast {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(108, 223, 127, 0.1);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.forecast-day, .hourly-forecast {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.forecast-day:first-child, .hourly-forecast:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
